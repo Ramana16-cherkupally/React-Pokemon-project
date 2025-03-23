@@ -1,0 +1,60 @@
+*{
+    font-family: sans-serif;
+}
+h2{
+    margin: 0;
+}
+p{
+    display: inline;
+    
+}
+.inputvalue{
+    width: 40%;
+    background-color: rgb(248, 251, 251);
+    padding: 10px 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.pokeman-bg{
+    background-color: rgb(221, 224, 240);
+    border-top-left-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+}   
+
+
+.pokeman-card{
+    max-width:20rem;
+    height: auto;
+    width: 100%;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.35); 
+    margin: 5px; 
+    padding: 1rem;
+    text-align: center;
+}
+.pokeman-info{
+    padding: 0 15px;
+    line-height: 20px;
+}
+.grid-three-col{
+    display: flex;
+    grid-template-columns: repeat(1fr,3);
+    line-height: 15px;
+    
+}
+.sprites-img{
+transform: scaleX(-1);
+height: 8rem;
+}
+.poketypes{
+    background-color: rgb(34, 206, 18);
+    color: aliceblue;
+    display: inline;
+    margin: 0 90px 5px 90px;
+    border-radius: 5rem;
+    font-size: 12px;
+
+}
+.shimmercard{
+    height: 330px;
+    background-color: #ccc;
+}
